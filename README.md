@@ -1,4 +1,4 @@
-ChatApp
+#ChatApp
 Welcome to ChatApp! This is a real-time chat application built using HTML, CSS, JavaScript, and Socket.IO. It allows users to communicate with each other in real-time through a web-based chat interface.
 
 Features
@@ -75,5 +75,5 @@ Socket.IO: For real-time web socket communication.
 Node.js: For server-side JavaScript.
 Express: For the web framework.
 Contact
-For any questions or feedback, please reach out to us at email@example.com.
+For any questions or feedback, please reach out to us at danielclerkson68@gmail.com.
 
