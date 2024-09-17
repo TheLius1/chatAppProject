@@ -21,40 +21,8 @@ Getting Started
 Prerequisites
 Node.js: Ensure you have Node.js installed. You can download it from nodejs.org.
 npm: Node package manager comes with Node.js.
-Installation
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/chatapp.git
-cd chatapp
-Install dependencies:
 
-bash
-Copy code
-npm install
-Start the server:
-
-bash
-Copy code
-npm start
-This will start the Node.js server and you should be able to access the chat app at http://localhost:3000.
-
-Access the app:
-
-Open your browser and go to http://localhost:3000 to start using the chat application.
-
-Configuration
-Environment Variables: Configure environment variables in a .env file for sensitive information such as database URIs, API keys, etc. Example .env file:
-
-env
-Copy code
-PORT=3000
-DB_URI=mongodb://localhost:27017/chatapp
-SECRET_KEY=your_secret_key
-API Documentation
-Authentication API: (Include details about login, signup, and token management.)
-Chat API: (Describe endpoints for sending and receiving messages, creating chat rooms, etc.)
 Usage
 Sign Up / Log In: Create an account or log in to start chatting.
 Start a New Chat: Use the interface to start a new chat or join an existing one.
