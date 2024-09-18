@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Chat Application</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="cha.jpg" type="image/x-icon">
 </head>
 <body>
 	<div class="wrapper">
@@ -12,21 +13,26 @@
 			<header>Chat App</header>
 			<form action="#">
 				<div class="error-txt">Error Message</div>
-					<div class="field input">
-						<label>Email Address</label>
-						<input type="Email" placeholder="Enter Your email address">
-					</div>
-					<div class="field input">
-						<label>Password</label>
-						<input type="Password" placeholder="Enter Your First Name">
-					</div>
-					<div class="field button">
-						<input type="submit" value="Login">
-					</div>
+				<div class="field input">
+					<label>Email Address</label>
+					<input type="Email" placeholder="Enter Your email address">
+				</div>
+				<div class="field input">
+					<label>Password</label>
+					<input type="Password" placeholder="Enter Your First Name">
+				</div>
+				<div class="field button">
+					<input type="submit" value="Login" id="z">
+				</div>
 			</form>
 			<div class="link">Don't have an Account ? <a href="signup.html">Sign Up</a></div>
+			<div class="modes">
+				<button type="button" id="ck1" class = "btn btn1">Dark Mode</button>
+				<button type="button" id="ck2" class="btn btn2">Light Mode</button>
+			</div>
 		</section>
 	</div>
+	<script src="app.js"></script>
 
 </body>
 </html>

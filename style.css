@@ -13,11 +13,44 @@ body{
 	min-height: 100vh;
 	background: #f7f7d7;
 }
+body.dark-mode{
+	background-color: #434141;
+}
+
+
+.btn{
+	height: 40px;
+	width: 50%;
+	border: none;
+	border-radius: 5px;
+	margin: 10px;
+	font-size: 17px;
+	cursor: pointer;
+}
+button.btn2{
+	background: #e6e6e6;
+	color: #333;
+}
+
+button.btn1{
+	background: #67676a;
+	color: #333;
+}
+
+div.modes{
+	display: flex;
+}
 
 .wrapper{
 	border-radius: 20px;
- 	background: #fff; width: 450px; 
+ 	background: #fff; 
+	width: auto; 
  	box-shadow: 0 0 128px 0 rgba(0, 0,0, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5); 
+}
+
+.wrapper.dark-mode{
+	background: #333;
+	color: white;
 }
 
 /* Signup Form */
@@ -97,6 +130,16 @@ body{
 	font-size: 17px;
 	font-weight: 400;
 	cursor: pointer;
+	transition: 0.5s all;
+}
+
+.form form .button input:hover, .form form .button input.dark-mode:hover{
+	background: #eee;
+	color: #504949;
+}
+
+.form form .button input.dark-mode{
+	background-color: #434141;;
 }
 
 .form .link{
@@ -145,7 +188,7 @@ body{
 }
 
 :is(.users, .users-list) .details{
-	color: #000;
+	color: #8f8383;
 	margin-left: 15px;
 }
 
